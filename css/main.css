@@ -169,6 +169,13 @@ a:focus {
   font-size: 30px;
   font-weight: 100;
 }
+@media (max-width: 480px) {
+  .logo-left {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+  }
+}
 .logo-left img {
   width:40px;
   height: auto;
@@ -304,9 +311,9 @@ a:focus {
   font-weight: 700;
   color: #00ccff;
 }
-#features .features .features-text {
+/*#features .features .features-text {
   padding-left: 80px;
-}
+}*/
 #features .features .features-text p {
   margin: 0;
 }
@@ -431,7 +438,7 @@ a:focus {
 }
 #why .content .list-item li {
   color: #fff;
-  line-height: 50px;
+  /*line-height: 50px;*/
   font-size: 18px;
   text-transform: uppercase;
 }

@@ -48,6 +48,7 @@
   }
   .navbar .navbar-right {
     float: right;
+    padding-top: 15px;
   }
   .hero-area .contents {
     padding-top: 50px;
@@ -90,7 +91,8 @@
     line-height: 30px;
   }
   #why .content .list-item li {
-    font-size: 13px;
+    font-size: 10px;
+    text-transform: capitalize;
   }
   #why .content .btn {
     margin-bottom: 60px;
